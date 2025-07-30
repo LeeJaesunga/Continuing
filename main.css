@@ -287,3 +287,259 @@
     height: 500px;
     /* box-shadow: rgb(204, 204, 204) 5px 5px 10px; */
 }
+
+.shortcut_wrapper {
+    height: 140px;
+    background-color: #f7f7f7;
+}
+
+.hFTytI12 {
+    display: flex;
+    align-items: center;
+}
+
+.eMxJid {
+    display: flex;
+    width: 240px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.eMxJid > img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.eMxJid > a {
+    color: rgb(89, 87, 87);
+    display: flex;
+    align-items: center;
+}
+
+.eMxJid > a > p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    max-width: 115px;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    word-break: keep-all;
+}
+
+.eMxJid > a > img {
+    width: 10px;
+    height: 16px;
+}
+
+.notice_wrapper {
+    height: 250px;
+}
+
+.hFTytI13 {
+    display: flex;
+    align-items: center;
+}
+
+.gwRszI > div {
+    width: 525px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.dnSYJe {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.dnSYJe > div:first-child {
+    border-top: 1px solid rgb(79, 145, 205)!important;
+    border-right: 1px solid rgb(79, 145, 205)!important;
+    border-left: 1px solid rgb(79, 145, 205)!important;
+    border-image: initial!important;
+    border-bottom: none!important;
+}
+
+.dnSYJe > div:nth-child(2n+1) {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(89, 87, 87);
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 50px;
+    border: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+.dnSYJe > div:nth-child(2) {
+    width: 9px;
+    border-bottom: 1px solid rgb(79, 145, 205);
+}
+
+.dnSYJe > div:nth-child(3) {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(201, 201, 201) rgb(201, 201, 201) rgb(79, 145, 205);
+    border-image: initial;
+}
+
+.dnSYJe > div:last-child {
+    flex: 1 1 0%;
+    border-bottom: 1px solid rgb(79, 145, 205);
+}
+
+.tabpanel12 {
+
+}
+
+.tabpanel12 > ul > li {
+    padding: 12px 8px 0px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.tabpanel12 > ul > li > a {
+    max-width: 400px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(89, 87, 87);
+}
+
+.tabpanel12 > ul > li > p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(89, 87, 87);
+}
+
+.ksdg_wrapper {
+    height: 307px;
+    background-color: #e1e4e9;
+}
+
+.ksdg_wrapper>div {
+    padding-top: 35px;
+}
+
+.iocgGN > div:first-child {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -1.9px;
+    color: rgb(33, 33, 33);
+    margin-bottom: 23px;
+}
+
+.iocgGN > div:last-child {
+    width: 110px;
+    height: 2px;
+    margin: 0px auto;
+    background-color: rgb(65, 143, 222);
+}
+
+.ksdg_slider {
+    width: 880px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ksdg_slider .slick_prev {
+    background: url("/img/다운로드\ \(10\).png");
+}
+
+.ksdg_slider .slick_prev {
+    left: -60px;
+}
+
+.ksdg_slider .slick_arrow {
+    width: 34px;
+    height: 95px;
+}
+
+.slick_tracksss {
+    width: 30800px;
+    opacity: 1;
+    transform: translate3d(-880px, 0px, 0px);
+}
+
+.ksdg_slider .slick_slide {
+    width: 880px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+/* .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+} */
+
+.cYzFYo {
+    outline: none;
+    width: 880px !important;
+}
+
+.cYzFYo > img {
+    display: inline-block !important;
+    vertical-align: top;
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+}
+
+.cYzFYo > div {
+    width: 730px;
+    display: inline-block !important;
+    vertical-align: top;
+}
+
+.cYzFYo > div > p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cYzFYo > div > span {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.cYzFYo > div > a {
+    float: right;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.cYzFYo > div > a > div:first-child {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(65, 143, 222);
+    margin-right: 4px;
+}
+
+.cYzFYo > div > a > div {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.cYzFYo > div > q {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 6.5px 0px 6.5px 13px;
+    border-color: transparent transparent transparent rgb(65, 143, 222);
+    margin-right: 10px;
+}
