@@ -450,12 +450,13 @@
     margin-top: 50px;
 }
 
-.ksdg_slider .slick_prev {
+.ksdg_slider .slick_prevs {
     background: url("/img/다운로드\ \(10\).png");
 }
 
-.ksdg_slider .slick_prev {
+.ksdg_slider .slick_prevs{
     left: -60px;
+    position: absolute;
 }
 
 .ksdg_slider .slick_arrow {
@@ -464,9 +465,9 @@
 }
 
 .slick_tracksss {
-    width: 30800px;
+    /* width: 30800px;
     opacity: 1;
-    transform: translate3d(-880px, 0px, 0px);
+    transform: translate3d(-880px, 0px, 0px); */
 }
 
 .ksdg_slider .slick_slide {
@@ -484,7 +485,16 @@
     min-height: 1px;
 } */
 
+.slick_listqq {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
 .cYzFYo {
+    display: flex;
     outline: none;
     width: 880px !important;
 }
@@ -503,14 +513,14 @@
     vertical-align: top;
 }
 
-.cYzFYo > div > p {
+.cYzFYo > div > div:first-child {
     width: 100%;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.cYzFYo > div > span {
+.cYzFYo > div > div:nth-child(2) {
     width: 100%;
     font-size: 18px;
     font-weight: 300;
@@ -518,6 +528,8 @@
 }
 
 .cYzFYo > div > a {
+    display: flex;
+    align-items: center;
     float: right;
     margin-top: 5px;
     text-decoration: none;
@@ -530,12 +542,7 @@
     margin-right: 4px;
 }
 
-.cYzFYo > div > a > div {
-    display: inline-block !important;
-    vertical-align: middle;
-}
-
-.cYzFYo > div > q {
+.cYzFYo > div > a > div:last-child {
     width: 0px;
     height: 0px;
     border-style: solid;
@@ -543,3 +550,151 @@
     border-color: transparent transparent transparent rgb(65, 143, 222);
     margin-right: 10px;
 }
+
+.ksdg_slider .slick_nexts {
+    background:  url("/img/다운로드\ \(11\).png");
+    right: -60px;
+    top: 7px;
+    position: absolute;
+}
+
+.ksdg_slider .slick_arrow {
+    width: 34px;
+    height: 95px;
+}
+
+.sdg_wrapper {
+    height: 550px;
+}
+
+.sdg_wrapper>div {
+    padding-top: 65px;
+}
+
+.fhhjme > div:first-child {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.fhhjme > div:last-child {
+    width: 1192px;
+    margin: 0px auto;
+}
+
+.fhhjme > div:last-child > a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    margin: 0px 5px 10px;
+    text-decoration: none;
+}
+
+.fhhjme > div:last-child > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.cGwOrX {
+    margin-top: auto;
+    width: 100%;
+    min-width: 1200px;
+    height: 190px;
+    background-color: rgb(225, 228, 233);
+}
+
+.ifVbzO {
+    position: relative;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 100%;
+    padding-left: 52px;
+    margin: 0px auto;
+}
+
+.lfMHJp {
+    width: 180px;
+    height: 52px;
+    background: url("/img/logo-header.png");
+    float: left;
+    margin-top: 58px;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.ErYCh {
+    float: left;
+    width: 884px;
+}
+
+.ErYCh > div:first-child {
+    margin-top: 31px;
+}
+
+.ErYCh > div:first-child > a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(89, 87, 87);
+    text-decoration: none;
+}
+
+.fFSTK {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 12px;
+    margin: 0px 18px;
+    background-color: rgb(151, 151, 151);
+}
+
+.ErYCh > div:nth-child(2) {
+    margin-top: 14px;
+}
+
+.ErYCh > div:nth-child(2) > div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(89, 87, 87);
+}
+
+.ErYCh > div:nth-child(2) > div:nth-child(3) {
+    color: rgb(79, 145, 205);
+}
+
+.ErYCh > div:nth-child(3) {
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.79;
+    color: rgb(89, 87, 87);
+    white-space: pre-wrap;
+}
+
+@media (max-width: 440px) {
+    .gRvgXC01 {
+        display: none;
+    }
+
+    .gRvgXC1 {
+        background: url("/img/title-background.811125b0.png");
+        display: flex;
+        min-width: unset;
+        background-size: cover;
+        height: 80px !important;
+    }
+
+    .hFxRwf {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+
