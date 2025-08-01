@@ -742,6 +742,37 @@
     .UN-SDGs {
         display: none;
 }
+
+    .dyksGe {
+        min-width: unset;
+    }
+
+    .slide_wrapper {
+        height: auto;
+        margin-bottom: 0;
+        background-image: none;
+
+    }
+
+    .GGxYl > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img02 {
+        display: none;
+    }
+
+    .img01 {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        display: block;
+    }
+
+        .hFTytI {
+        width: 100%;
+    }
 }
 
 
