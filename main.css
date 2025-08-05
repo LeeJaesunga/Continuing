@@ -170,35 +170,36 @@
 }
 
 .slick_track {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  flex-direction: column; /* ← 위아래 방향 설정 */
+  transition: transform 0.5s ease-in-out; /* ← 전환 시간 (조절 가능) */
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.slick_track:before {
-    display: table;
-    content: "";
+.slick_slide {
+  /* height: 36px; */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .tag_slider .slick_slide {
-    display: flex;
-    max-width: 150px;
-    height: 36px;
-    align-items: center;
-    border: 1px solid transparent;
-    float: left;
-    min-height: 1px;
+  display: flex;
+  align-items: center;
+  max-width: 150px;
+  width: 242px;
+  height: 36px;
+  border: 1px solid transparent;
+  float: left;
 }
 
 .tag_slider .slick_slide a {
-    text-decoration: none;
-    font-size: 17px;
-    color: #4f91cd;
-    width: 100%;
-    display: inline-block;
+  text-decoration: none;
+  font-size: 17px;
+  color: #4f91cd;
+  width: 100%;
+  display: inline-block;
 }
 
 .slick_next {
@@ -215,7 +216,6 @@
 }
 
 .gRvgXC2 {
-    display: none;
     height: 55px;
     background-color: rgb(79, 145, 205);
 }
@@ -238,6 +238,53 @@
     font-weight: 900;
     color: rgb(255, 255, 255);
     line-height: 55px;
+}
+
+.hFxRwf1234 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    min-width: 230px;
+    left: 0px;
+    top: 55px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    z-index: 15;
+    cursor: default;
+    border-right: 1px solid rgb(79, 145, 205);
+    border-bottom: 1px solid rgb(79, 145, 205);
+    border-left: 1px solid rgb(79, 145, 205);
+    border-image: initial;
+    border-top: none;
+}
+
+.hFxRwf1234 > a {
+    display: block;
+    padding: 10px 0px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.hFxRwf1234 > a > div:first-child {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(79, 145, 205);
+    margin-right: 6px;
+}
+
+.hFxRwf1234 > a > div:last-child {
+    width: calc(100% - 14px);
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.89px;
+    color: rgb(89, 87, 87);
+    white-space: nowrap;
 }
 
 .iBlPxD {
@@ -987,6 +1034,10 @@
     color: rgb(89, 87, 87);
     line-height: 1.67;
     white-space: pre-wrap;
+    }
+
+    .gRvgXC2 {
+        display: none;
     }
 
 
