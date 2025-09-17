@@ -364,6 +364,23 @@
                                         </div>
                                        </div>
                                     </div>
+
+                                    <div class="slick_slide slick_cloned">
+                                       <div>
+                                        <div class="ecdx3h_6 cYzFYo">
+                                            <img src="./img/logo-17[120x120]_png.png" alt="">
+                                            <div>
+                                                <div>지구촌 협력 강화</div>
+                                                <div>개도국에 대한 여러 가지 지원과 역량 강화 유도, 공공/공공-민간/시민사회 간 파트너십 권장 등 지구촌 협력 강화에 대한 목표와 지표를 담고 있습니다.</div>
+                                                <a href="/">
+                                                    <div>자세히보기</div>
+                                                    <div></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+
                                 </div>
                             </div>
                             <button type="button" class="slick_arrow slick_nexts"></button>
@@ -495,16 +512,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const slideCount = slides.length;
 
   function updateSlide() {
-    const slideWidth = slides[0].offsetWidth; // 한 슬라이드의 너비
-    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-    track.style.transition = "transform 0.5s ease-in-out";
-  }
+  const slideWidth = 880; // ✅ 고정 값
+  track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  track.style.transition = "transform 0.5s ease-in-out";
+}
 
   nextBtn.addEventListener("click", function () {
     if (currentIndex < slideCount - 1) {
       currentIndex++;
     } else {
-      currentIndex = 0; // 마지막 → 처음
+      currentIndex = 0; // 마지막에서 다시 처음으로
     }
     updateSlide();
   });
@@ -513,14 +530,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentIndex > 0) {
       currentIndex--;
     } else {
-      currentIndex = slideCount - 1; // 처음 → 마지막
+      currentIndex = slideCount - 1; // 처음에서 다시 마지막으로
     }
     updateSlide();
   });
 
-  // 초기 위치
+  // 초기 세팅
   updateSlide();
 });
+
 </script>
 
 

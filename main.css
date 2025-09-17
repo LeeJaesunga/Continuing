@@ -529,6 +529,8 @@
 
 .ksdg_slider .slick_slide {
     width: 880px;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .slick-initialized .slick-slide {
