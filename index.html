@@ -331,7 +331,24 @@
                         <div class="slick_slider ksdg_slider slick_initialized">
                             <button type="button" class="slick_arrow slick_prevs"></button>
                             <div class="slick_listqq">
-                                <div class="slick_track  slick_tracksss">
+                                <div class="slick_tracksss">
+
+                                    <div class="slick_slide slick_cloned">
+                                       <div>
+                                        <div class="ecdx3h_6 cYzFYo">
+                                            <img src="./img/logo-17[120x120]_png.png" alt="">
+                                            <div>
+                                                <div>지구촌 협력 강화</div>
+                                                <div>개도국에 대한 여러 가지 지원과 역량 강화 유도, 공공/공공-민간/시민사회 간 파트너십 권장 등 지구촌 협력 강화에 대한 목표와 지표를 담고 있습니다.</div>
+                                                <a href="/">
+                                                    <div>자세히보기</div>
+                                                    <div></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+
                                     <div class="slick_slide slick_cloned">
                                        <div>
                                         <div class="ecdx3h_6 cYzFYo">
@@ -467,7 +484,46 @@
 
     setInterval(moveSlide, 2000); // 2초마다 슬라이드 전환
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".slick_tracksss");
+  const slides = document.querySelectorAll(".slick_slide");
+  const prevBtn = document.querySelector(".slick_prevs");
+  const nextBtn = document.querySelector(".slick_nexts");
+
+  let currentIndex = 0;
+  const slideCount = slides.length;
+
+  function updateSlide() {
+    const slideWidth = slides[0].offsetWidth; // 한 슬라이드의 너비
+    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    track.style.transition = "transform 0.5s ease-in-out";
+  }
+
+  nextBtn.addEventListener("click", function () {
+    if (currentIndex < slideCount - 1) {
+      currentIndex++;
+    } else {
+      currentIndex = 0; // 마지막 → 처음
+    }
+    updateSlide();
+  });
+
+  prevBtn.addEventListener("click", function () {
+    if (currentIndex > 0) {
+      currentIndex--;
+    } else {
+      currentIndex = slideCount - 1; // 처음 → 마지막
+    }
+    updateSlide();
+  });
+
+  // 초기 위치
+  updateSlide();
+});
 </script>
+
+
 
 
 

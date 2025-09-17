@@ -171,8 +171,8 @@
 
 .slick_track {
   display: flex;
-  flex-direction: column; /* ← 위아래 방향 설정 */
-  transition: transform 0.5s ease-in-out; /* ← 전환 시간 (조절 가능) */
+  flex-direction: column; 
+  transition: transform 0.5s ease-in-out; 
   position: relative;
   top: 0;
   left: 0;
@@ -548,6 +548,10 @@
     padding: 0;
     position: relative;
     display: block;
+}
+
+.slick_tracksss {
+    display: flex;
 }
 
 .cYzFYo {
