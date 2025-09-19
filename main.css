@@ -554,12 +554,16 @@
 
 .slick_tracksss {
     display: flex;
+    width: 7040px;
+    opacity: 1;
+    transition: transform 0.5s ease-in-out;
 }
 
 .cYzFYo {
     display: flex;
     outline: none;
-    width: 880px !important;
+    width: 880px;
+    box-sizing: border-box;
 }
 
 .cYzFYo > img {
